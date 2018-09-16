@@ -1,0 +1,970 @@
+/*--------------------------全--局-------------------------------*/
+body{
+	margin:0;
+	padding:0;
+	color:#333;
+	font:13px/150% "Microsoft YaHei","宋体","Segoe UI",Tahoma,Arial;
+	/*background:url(default/bg_index.gif);*/ 
+	 background:#EDEDED url("msfp_bg3.jpg")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/msfp_bg3.jpg*/ repeat-x scroll 50% top;
+}
+a{
+	text-decoration: none;
+	color: #135E93;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*a:link {
+	color: #333;
+}
+a:visited {
+	color: #333;
+}
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+a:active {
+	color: #DC143C;
+	text-decoration: underline;
+}*/
+div.postlist h3{
+	font-size:12px;
+	margin:0;
+	padding:6px 12px;
+	color:#555;
+	background-color:#F4F4F4;
+	border-top:2px solid #D7D7D7;
+}
+ul{
+	list-style-type:none;
+	list-style-position : outside;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	word-break:break-all;
+}
+li{
+		margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+p{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	word-break:break-all;
+}
+img{
+	border:0;
+}
+.clear{ clear:both; line-height:1px; font-size:1px;}
+.f_l{float:left;}
+.f_r{float:right;}
+.both{clear:both;}
+/*-----------------------------------各模块设定----------------------------*/
+#divAll{
+	width:950px;
+	margin:0 auto;
+	background-color:#FFF;
+}
+
+#divPage{
+	/*padding:4px;*/
+}
+
+#divMiddle{
+	text-align:left;
+	background-color:#FFF;
+	padding:5px;
+}
+
+#divTop{
+	margin:0 auto;
+	padding-top:0px;
+	text-align:left;
+	overflow:hidden;
+	 
+	/*border-bottom:1px solid #C7C2C2;*/
+}
+
+#divSidebar{
+	width:260px;
+	text-align:left;
+	float:right;
+}
+
+#divMain{
+	width:658px;
+	margin-top:5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align:left;
+	float:left;
+	border:1px solid #CCCCCC;	
+}
+/*----新建页面---*/
+#divMainnewpage{
+	width:98.8%;
+	margin-top:5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align:left;
+	float:left;
+	border:1px solid #CCCCCC;	
+}
+
+#divBottom{
+	padding:12px;
+	text-align: center;
+	height:50px;
+	/*padding-left:68px;
+	font-family:MingLiU;*/
+	font-size:11px;
+	clear:both;
+	color:#333;
+}
+
+#divBottom a, #divBottom a:visited{ color:#333; text-decoration:none}
+#divBottom a:hover{ text-decoration:underline}
+/*------------------------------侧边栏定义---------------------------------*/
+div.function {
+	margin:5px 0 0 0;
+	padding:0 0 0 0;
+	text-align:left;
+}
+
+
+div.function h3{
+
+font-size:12px;
+background:url("msfp_015.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/msfp_015.gif*/;
+ 
+color:#555555;
+	margin:0;
+font-weight:bold;
+line-height:25px;
+text-align:center;
+}
+div.function ul{
+	border:1px solid #CCCCCC;
+}
+div.function li{
+	margin:0;
+	padding:0 7px;
+	list-style:inside square;
+    line-height:22px;
+	color:#59C3F7;
+	border-bottom:1px solid #dff0F6;
+	}
+  
+div.function li a, div.function li a:hover{
+
+	}
+
+/*------------------------------控制面板定义---------------------------*/
+#divSearchPanel form h3 ul{ padding:0}
+#divSearchPanel form{ padding:6px 0; margin:0}
+#divSearchPanel form input#edtSearch{border:1px solid #9B9B9B;  }
+#divSearchPanel form input#btnPost{   color:#333; background:#FFF; border:1px solid #7A7A7A; border-top-color:#F4F4F4; border-left-color:#F4F4F4;}
+
+#divComments, #divGuestComments, #divTrackbacks, #divStatistics, #divFavorites{ display:none;}
+/*------------------------------网站目录定义---------------------------*/
+#divCatalog li{
+	background:none;
+}
+#divCatalog li a, #divCatalog li a:visited{ color:#333;}
+/*#divCatalog li span.feed-icon{
+	display:none;
+}*/
+#divPrevious li span.article-date{
+	display:none;
+}
+
+
+#divMisc{
+
+	
+}
+#divMisc h3{
+	display: none;
+}
+#divMisc ul{
+	border:1px solid #CCCCCC;
+	padding:0;
+	margin:0;
+}
+#divMisc li{ list-style:none; padding:0; margin:3px; border:none; }
+#divMisc li a{
+	color:#333;
+}
+
+div.function li span.feed-icon a{
+	background:url("feed.png")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/feed.png*/ no-repeat 0 3px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-size:13px;
+	height:12px;
+	width:12px;
+}
+div.function li span.feed-icon img{
+	height:12px;
+	width:9px;
+	visibility:hidden;
+	margin:0;
+	padding:0;
+}
+div.function li span.feed-icon img{
+	height:12px;
+	width:9px;
+	visibility:hidden;
+	margin:0;
+	padding:0;
+}
+
+#divContorPanel li{
+	background-image : none;
+}
+
+#divSearchPanel li{
+	background-image : none;
+}
+
+/*----------------------------文章模块-----------------------------------*/
+
+
+div.post {
+	margin:0;
+	padding-bottom:6px;
+	border-bottom:1px solid #CCC;
+	text-align:left;
+	clear:both;
+}
+/*美化的分页链接*/
+.pagebar{
+ line-height:20px;
+ height:20px
+}
+.pagebar a,.pagebar .now-page{
+ padding:1px 3px 2px 3px;
+ margin:0 2px;
+ text-align:center;
+ font-weight:bold;
+ font-family:Verdana;
+ border:1px solid #ccc;
+ text-decoration:none
+}
+.pagebar a:hover{
+ border:1px solid #c00;
+ text-decoration:none
+}
+/*美化的分页链接结束*/ 
+
+/*---------------------------文章上下翻条------------------------*/
+div.post-nav {
+	width:100%;
+	clear:both;
+	float:left;
+	height:30px;
+	line-height:30px;
+}
+
+/*---------------------------文章翻条左------------------------*/
+div.post-nav a.l{
+	float:left;
+	padding-right:10px;
+	padding-bottom:5px;
+}
+/*---------------------------文章翻条右------------------------*/
+div.post-nav a.r{
+	float:right;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+/*---------------------------文章内容------------------------*/
+div.post .post-title{ margin:0; padding:6px 0; font-size:14px; font-weight:bold;  border-bottom:1px solid #DDD; margin-bottom:6px;}
+div.post .post-title a, div.post .post-title a:visited{
+	font-size:14px;
+	text-decoration:none;
+	color: #333;
+	font-family:"微软雅黑";
+}
+div.post .post-title a:hover{ color:#333; text-decoration:underline;}
+
+div.post .post-content{ text-align:left; }
+div.post .post-date{
+	display:none;
+}
+
+div.post .post-footer{
+	margin:0;
+	padding-top:6px;
+	font-size:12px;
+	color:#333;
+	text-align:left;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-family:MingLiU;
+	
+}
+
+.post-links {
+	padding: 0 0 0 20px;
+	background: url("blogroll.png")/*tpa=http://www.52tony.com/themes/MSNBETA/style/images/blogroll.png*/ no-repeat 0 0;
+	}
+div.post .post-tags{
+	display:none;
+	padding: 0 0 0 20px;
+	background: url("icon_tag.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/images/icon_tag.gif*/ no-repeat 0 0;
+	font-size:12px;
+	color:gray;
+	text-align:left;
+	font-weight:bold;
+}
+
+.single div.post .post-tags{
+	
+	}
+	
+#divMain .pagebar, #divMain .guestbook_pagebar{ text-align:center; padding:5px 0}
+#divMain .pagebar a, #divMain .guestbook_pagebar a{ padding:0 5px;}
+
+body.multi div.post {
+	/*display:none;*/
+}
+
+div.post div.post-body{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-size:13px;
+	word-break:break-all;
+	text-align:left;
+	color:#444;
+	line-height:150%;
+}
+
+div.post div.post-body p{ line-height:150%}
+
+div.post-body div.media a{
+	padding-left:16px;
+	background:#FBFBFB url("media.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/media.gif*/ no-repeat 0 center;
+}
+
+div.post-body img{
+	padding:4px 4px 4px 4px;
+	border:0;
+	clear : both;
+	float : none;
+}
+
+ 
+ 
+div.post-body p.img{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+div.post-body p.inscript{
+	margin:0;
+	padding:0;
+	padding-right:20px;
+	text-align:right;
+}
+/*----------文章中引用code------*/
+div.post-body p.code{
+	padding:5px;
+	border:1px dotted black;
+}
+div.post-body div.code{
+	padding:5px;
+	border:1px dotted black;
+}
+
+div.post-body h1{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+div.post-body h2{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+div.post-body h3{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:13px;
+}
+div.post-body h4{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+div.post-body h5{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:11px;
+}
+div.post-body h6{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:10px;
+}
+
+/*-----------------------------blog标题----------------------------------*/
+#BlogTitle{
+	font-size:32px;
+	font-weight:bold;
+	float:left; 
+	width:241px; 
+	height:75px;
+        background:url("logo.png")/*tpa=http://www.52tony.com/themes/MSNBETA/style/images/logo.png*/ no-repeat 10px 0px;
+	margin:0;
+}
+#BlogTitle a{
+	 
+	height:65px;
+	text-indent:-9999em;
+}
+#BlogTitle a:hover {
+	color: #DC143C;
+	text-decoration: none;
+}
+#BlogTitle a:active {
+	color: #DC143C;
+	text-decoration: none;
+}
+#BlogSubTitle{
+	margin:0;
+	float:right;
+	color: #F0FFF0;
+	width:645px;
+	height:60px;
+	font-weight:normal;
+	font-size:12px;
+
+
+
+}
+/*---------------------------版权-----------------------------*/
+
+#BlogPowerBy{
+	padding:0px 0 0px 0;
+	margin:0;
+	font-weight:normal;
+	font-size:12px;
+}
+#BlogCopyRight{
+	margin:0;
+	font-size:12px;
+	font-weight:normal;
+}
+
+
+/*--------------------------------评论框-------------------------------*/
+p.posttop {
+	margin:10px 0 0 0;
+	padding:3px 0;
+	font-size:12px;
+	font-weight:bold;
+}
+p.postbottom {
+	margin:0 0 10px 0;
+	padding:5px 0 0 0;
+}
+
+#frmSumbit{
+	padding:0;
+	margin:0;
+}
+
+#frmSumbit p{
+	padding:5px 0 5px 0;
+}
+
+
+input.button{
+	background: white;
+	border: 1px double #284259;
+	color: #333;
+	padding: 0.05em 0.25em 0.05em 0.25em;
+}
+
+input.text, #txaArticle {
+	padding: 0.15em 0.25em 0.20em 0.25em;
+	border: 1px solid #999;
+	color:#666;
+	width: 200px;
+	background: white;
+}
+
+textarea.text {
+	padding: 0.15em 0.25em 0.20em 0.25em;
+	border: 1px double #284259;
+	width: 80%;
+	height: 80px;
+	background: white;
+	width: 520px;
+	height: 120px;
+}
+
+
+/*----------------------------------日历-----------------------------*/
+#divCalendar{
+width:260px;
+	padding:0 0 0 10px;
+	text-align:center;
+	display:none;
+}
+
+#divCalendar h3{
+	display:none;
+}
+
+#divCalendar div{
+	margin:0 0 0 0;
+	padding:0 0 5px 4px;
+	float:left;
+}
+#divCalendar div.month1{
+	background:url("month1.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month1.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month2{
+	background:url("month2.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month2.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month3{
+	background:url("month3.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month3.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month4{
+	background:url("month4.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month4.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month5{
+	background:url("month5.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month5.gif*/ no-repeat center 10px;;
+}
+#divCalendar div.month6{
+	background:url("month6.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month6.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month7{
+	background:url("month7.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month7.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month8{
+	background:url("month8.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month8.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month9{
+	background:url("month9.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month9.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month10{
+	background:url("month10.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month10.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month11{
+	background:url("month11.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month11.gif*/ no-repeat center 10px;
+}
+#divCalendar div.month12{
+	background:url("month12.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/month12.gif*/ no-repeat center 10px;
+}
+
+p.w{
+	float:left;
+	width:25px;
+	height:16px;
+	margin:4px 0 0 0;
+	padding:2px 0 1px 0;
+	text-align:center;
+	vertical-align :middle;
+	font-size:9px;
+	text-decoration : underline; 
+}
+
+p.y{
+	text-align:center;
+	height:14px;
+	margin:2px 0 0 0;
+	padding:0 0 0 0;
+	float:left;
+	width:175px;
+	font-size:12px;
+	font-weight:bold;
+}
+p.d{
+	float:left;
+	width:25px;
+	height:18px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+}
+p.yd{
+	float:left;
+	width:25px;
+	height:18px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+	font-weight:bolder;
+	color:#6090c0;
+	background: url("links_r.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/links_r.gif*/ no-repeat 1px 1px;
+}
+p.nd{
+	float:left;
+	width:25px;
+	height:18px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+}
+p.cd{
+	float:left;
+	width:25px;
+	height:18px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+	font-weight:bold;
+}
+
+
+/*-------------------------------引用\评论--------------------------------*/
+ul.msg{
+	width:648px;
+	margin:10px 0 40px 10px;
+	padding:0 0 0 0;
+	text-align:left;
+	list-style-position : outside;
+}
+li.msgname{
+	border-bottom:1px solid Silver;
+	padding:2px 0 2px 5px;
+	margin:0px;
+}
+li.tbname{
+	border-bottom:1px solid Silver;
+	padding:2px 0 2px 5px;
+	margin:0px;
+}
+li.msgurl{
+	border-left:1px solid Silver;
+	border-right:1px solid Silver;
+	text-align:right;
+	padding:2px 10px 2px 10px;
+	margin:0;
+	background:#f0f0f0;
+}
+li.msgarticle{
+	border-left:1px solid Silver;
+	border-right:1px solid Silver;
+	list-style-position : outside;
+	padding:15px 10px 15px 10px;
+	margin:0;
+	background:#F8F8F8;
+	line-height:150%;
+}
+li.msgtime{
+	border-left:1px solid Silver;
+	border-right:1px solid Silver;
+	border-bottom:1px solid Silver;
+	text-align:right;
+	padding:2px 5px 0 10px;
+	margin:0 0 0 0;
+	background:#F8F8F8;
+}
+/************文章内引用的样式*************/
+blockquote{ padding:6px 0; margin:0;}
+ul.trackback li.tbname{
+	border-bottom:none;
+	padding:3px 0 2px 0;
+	margin:0px;
+}
+ul.trackback{
+	margin:5px 0 10px 0;
+}
+/*---------------------------相关文章----------------------------------*/
+
+li.mutualityurl{
+		border-left:1px solid Silver;
+	border-right:1px solid Silver;
+    text-align:left;
+    padding:3px 10px 0px 10px;
+    margin:0;
+    background:#f0f0f0; 
+    line-height:150%;
+    font-family:"微软雅黑";
+    
+}
+/*-------------------留言回复------------------------------*/
+div.quote {
+	background:#E7F2FB;
+	margin:15px 20px 10px 10px;
+	padding:5px; 
+}
+div.quote div.quote-title {
+	font-size:100%;
+	border-bottom:1px #FFFFFF solid;
+	margin:0 0 10px 0;
+}
+
+/*------------------------------导航栏---------------------------------*/
+
+#divNavBar{
+	background: #3CA4E3 url("dc_bg.jpg")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/dc_bg.jpg*/ repeat-x center top;
+	height: 35px;
+	clear:both;
+	color:#FFFFFF;
+	line-height:25px;
+	line-height:12px;
+	font-weight:bold;
+	margin-top: 2px;
+	}
+
+#divNavBar h3{
+	display:none;
+}
+#divNavBar h3 img{ display:none}
+
+#divNavBar ul{
+ 
+	height:22px;
+	float:left;
+	padding-left:0;
+	/*border-right:1px solid #FFF;*/
+}
+
+#divNavBar ul li{
+	float:left;
+	margin:0;
+	font-size:14px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	/*border-left:1px solid #EAEAEA;*/
+	overflow:hidden;
+	 
+    padding-left:20px;
+    padding-right:20px;
+    /*background:transparent url(default/search_top_seperator.gif) repeat-y scroll right top;*/
+}
+
+#divNavBar ul li a{
+	
+	height:22px;
+	float:left; 
+	text-align:center;
+	line-height:25px;
+	margin-top: 3pt;
+	text-decoration: none;
+	color:#ffffff;
+	 
+}
+
+#divNavBar ul li a:hover {
+color: #ff9900;
+	text-decoration: underline;
+	/*background:#916969;*/
+}
+
+/*#navline{ background:#EFEFEF; height:4px; line-height:1px; font-size:1px; margin:1px 0;}*/
+
+.default #divNavBar #default a,
+.search #divNavBar #search a,
+.tags #divNavBar #tags a,
+.gb #divNavBar #gb a{color: #fff;background:#333; font-weight:bold;}
+
+.gb .post-body{ display:none;}
+.gb .post .post-title{ margin:0; border:none;}
+
+
+#divCommentPost{ border:none}
+#divCommentPost p{ clear:both; margin:0; padding:4px 0}
+#divCommentPost p label{  float:left; width:80px;}
+#divCommentPost p textarea{ width:500px;}
+#divCommentPost div{ padding-left:80px;}
+
+.rsslink { vertical-align:top; text-align:right; padding-right:10px; display:none}
+.rsslink img{  vertical-align:text-top; position:relative; top: -10px; }
+.rsslink a{ color:#555; font-weight:bold;}
+
+.pngbg{ line-height:1px; font-size:1px;}
+
+.search .post, .tags .post{ border:none}
+
+div.istop { padding:0;}
+div.istop .post-title{ border:none; margin:0; padding:6px 0;}
+div.istop .post-title a, div.istop .post-title a:visited{ color:#C00; }
+
+div.ss{ float:right; width:120px}
+div.ss span{ float:left; font-weight:bold;}
+div.ss ul{ float:left;}
+div.ss ul li{ float: left;}
+div.ss ul li a{  width:10px; height:10px; border:1px solid #333; line-height:1px; font-size:1px; margin:0 5px;  text-indent:-9999px; overflow:hidden}
+
+
+
+.postlist{ overflow:hidden; 
+line-height:22px;   
+/*padding:4px 0;*/
+ border-bottom:1px solid #DFF0F6}
+.postlist a{ padding:0 5px;}
+.postlist .postdate{ float:right; font-size:11px;}
+.postlist .mumbers{ font-family:MingLiU; font-size:11px; padding-left:5px; color:#999}
+
+.relatepost{ overflow:hidden;  }
+.relatepost h4{ font-size:12px; font-weight:bold; padding:6px 0; margin:0}
+.relatepost .rbox{ float:left; width:49%; background:#fff; list-style:none; margin:0; }
+.relatepost li ul{ padding:0 5px; margin:0 }
+.relatepost ul li{  padding:4px 0; list-style:inside disc; border-bottom:1px solid #eee; }
+
+#inpVerify{
+	width: 130px;
+}
+
+#divSearchBar .search_seperator{	
+	width: 2px;
+	background: url("search_top_seperator.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/search_top_seperator.gif*/ repeat-y center;
+}
+#divSearchBar{
+	height:35px;
+	background:#003366;
+	clear:both;
+	/*color:#FFFFFF;*/
+	color: #003366;
+	/*line-height:30px;*/
+	font-size:12px;
+	font-weight:bold;
+	background-image:url("search_bg_main.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/search_bg_main.gif*/;
+	border-left:1px solid #97BBEF;
+	border-right:1px solid #97BBEF;
+	margin-bottom:2px;
+	}
+#divSearchBar .search_table{
+	width: 220px;
+}
+.search_hottage span a{
+	color:#333333;
+	margin-right:6px;
+ }
+
+#divSearchBar form h3 ul{ padding:0;}
+#divSearchBar form{ padding:0; margin:0;}
+#divSearchBar form input#edtSearch{border:1px solid #9B9B9B; width: 120px;}
+#divSearchBar form input#btnPost{
+	color:#333;
+	background:#FFF; 
+	border:1px solid #7A7A7A; 
+	border-top-color:#F4F4F4; 
+	border-left-color:#F4F4F4;
+	height: 20px;
+	line-height: 20px;
+}
+
+#divmain .relatepost{ overflow:hidden; }
+#divmain .relatepost h4{ font-size:12px; font-weight:bold; padding:6px 0; margin:0}
+#divmain .relatepost .rbox{ float:left; width:49%; background:#fff; list-style:none; margin:0; }
+#divmain .relatepost li ul{ padding:0 5px; margin:0 }
+#divmain .relatepost ul li{  padding:4px 0; list-style:inside disc; border-bottom:1px solid #eee; }
+
+
+.cmslist{ overflow:hidden; padding-top:5px;}
+.cmstd{
+}
+.cmstd  h3{
+	font-size:12px;
+	margin:0;
+	padding:3px 0 3px 6px;
+	color:#07519a;
+	background:url("msfp_015.gif")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/msfp_015.gif*/;  
+}
+.cmstddiv{	margin-right:5px;
+	border: 1px solid #D7D7D7;
+        vlign:top;}
+	
+.cmsdiv li{
+    border-bottom:1px solid #dff0F6;
+	margin:0;
+	padding:0 7px;
+	list-style:inside circle;
+        line-height:22.8px;
+	color:#FF8500;
+	
+	 }
+	 
+	 /*AAD*/
+.spanLeft{
+	float:left;
+}
+.spanRight{
+	float:right;
+	padding:3px 0px 0px 0px !important;
+	line-height:24px;}
+ 
+/*AAD END*/
+
+#divBottom2{
+	clear: both;
+	background:#1A68AA;
+	text-align: left;
+	height: 80px;
+	background:#1A68AA  url("shadow_2.jpg")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/shadow_2.jpg*/ repeat-x bottom;
+	font-size:11px;
+	clear:both;
+	color:#FFFFFF;
+}
+.link ul {
+border: 0 none;
+margin:0pt;
+padding:0pt;
+text-align:left;
+}
+
+.link ul a {
+background-color:#1A68AA;
+color:#EAEAEA;
+}
+#divMain2{
+	width:678px;
+	text-align:left;
+	float:left;
+	margin-bottom:5px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+				added
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.search_hottage a{
+	font-weight: normal;
+}
+.catalog .post-title {
+border-bottom:1px solid #DDDDDD;
+font-size:14px;
+font-weight:bold;
+margin:0pt 0pt 6px;
+padding:6px 0pt;
+text-align: center;
+}
+.headLeft{
+	float: left;
+   background: url("roundedcornr__l.png")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/roundedcornr__l.png*/ no-repeat left top;
+   width: 10px;
+   height: 10px;
+   left: 0;
+   bottom: 0;
+}
+.headRight{
+	float: right;
+   background: url("roundedcornr__r.png")/*tpa=http://www.52tony.com/themes/MSNBETA/style/default/roundedcornr__r.png*/ no-repeat right top;
+   width: 10px;
+   height: 10px;
+}
+.link{
+	padding: 12px;
+}
+.link a:link{
+	color: #EAEAEA;
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+} 

@@ -1,0 +1,693 @@
+@charset "gb2312";
+/* CSS Document */
+*
+{
+	margin:0px auto;
+	padding:0px;
+}
+body
+{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	font-family:"宋体";
+	font-size:12px;
+	color:#333;
+	background:url("bg-1.jpg")/*tpa=http://www.52tony.com/p2/images/bg.jpg*/ repeat-x;
+}
+.box
+{
+	width:999px;
+	height:4885px;
+	margin:0px auto;
+	padding-left:22px;
+	padding-right:23px;
+	background:url("box-bg1-1.jpg")/*tpa=http://www.52tony.com/p2/images/box-bg1.jpg*/;
+	overflow:hidden;
+}
+
+img{ border:0px;}
+.top
+{
+	width:999px;
+	height:168px;
+	background:url("top-bg1-1.jpg")/*tpa=http://www.52tony.com/p2/images/top-bg1.jpg*/ no-repeat;
+}
+.top-left
+{
+	width:345px;
+	height:144px;
+	padding-left:32px;
+	padding-top:5px;
+	float:left;
+}
+.top-right
+{
+	width:622px;
+	height:149px;
+	float:left;
+	overflow:hidden;
+}
+.top-right-top
+{
+	width:243px;
+	height:39px;
+	text-align:right;
+	padding-left:301px;
+	padding-right:78px;
+}
+.top-right-top_text
+{
+	width:124px;
+	height:39px;
+	float:left;
+	text-align:left;
+}
+.top-right-top_text ul
+{
+	width:124px;
+	height:39px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:left;
+}
+.top-right-top_text li
+{
+	width:62px;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+	float:left;
+}
+.top-right-top_search
+{
+	width:119px;
+	height:33px;
+	padding-top:6px;
+	float:left;
+}
+.top-rignth-top_w
+{
+	height:24px;
+	float:left;
+}
+.top-rignth-top_input
+{
+	width:84px;
+	height:24px;
+	float:left;
+	text-align:left;
+	line-height:24px;
+	border:none;
+	color:#ffffff;
+	background:url("search-bg-1.jpg")/*tpa=http://www.52tony.com/p2/images/search-bg.jpg*/ left no-repeat;
+}
+.top-right-top_btn
+{
+	width:30px;
+	height:24px;
+	float:left;
+	border:none;
+	background:url("btn-1.jpg")/*tpa=http://www.52tony.com/p2/images/btn.jpg*/
+}
+.top-right-top-number
+{
+	width:321px;
+	height:28px;
+	float:left;
+	margin-top:18px;
+	padding-left:301px;
+}
+.top-right-menu
+{
+	width:622px;
+	padding-top:10px;
+	height:36px;
+	line-height:36px;
+	_line-height:20px;
+	font-family:"宋体";
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+}
+.flash
+{
+	width:999px;
+	height:375px;
+	margin:10px 0px;
+	background:url("flash-bg1-1.jpg")/*tpa=http://www.52tony.com/p2/images/flash-bg1.jpg*/ no-repeat;
+}
+.flash-left
+{
+	width:474px;
+	height:374px;
+
+	float:left;
+}
+.flash-left-shipin
+{
+	width:409px;
+	height:272px;
+	float:left;	
+		padding-top:37px;
+	padding-left:35px;
+	padding-right:30px;
+	padding-bottom:13px;
+}
+.flash-left-text
+{
+	width:474px;
+	height:22px;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	line-height:22px;
+	font-weight:bold;
+}
+.flash-right
+{
+	width:525px;
+	height:92px;
+	padding-top:282px;
+	_margin-bottom:50px;
+	float:left;
+}
+.wr
+{
+	width:999px;
+	height:auto;
+	overflow:hidden;
+	_margin-top:-45px;
+	margin-top:10px
+}
+.wr-left
+{
+	width:656px;
+	height:462px;
+	float:left;
+	background:url("pic1-1-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic1-1.jpg*/ no-repeat;
+}
+.wr-left-top
+{
+	width:643px;
+	height:276px;
+	float:left;
+}
+.wr-left-top-left
+{
+	width:262px;
+	height:64px;
+	line-height:25px;
+	text-align:center;
+	padding-top:207px;
+	float:left;
+}
+.wr-left-top-right
+{
+	width:393px;
+	height:153px;
+	float:left;
+	line-height:25px;
+	font-size:14px;
+	font-weight:bold;
+	color:#C10D1F;
+	padding-top:121px;
+}
+.wr-left-middle
+{
+	width:643px;
+	height:36px;
+	float:left;
+	padding-top:27px;
+}
+.wr-left-bottom
+{
+	width:655px;
+	height:146px;
+	float:left;
+}
+.wr-left-bottom-left
+{
+	width:317px;
+	height:auto;
+	padding-left:20px;
+	padding-top:15px;
+	float:left;
+}
+.wr-left-bottom-right
+{
+	width:318px;
+	height:auto;
+	padding-top:80px;
+	float:left;
+}
+.wr-right
+{
+	width:290px;
+	height:319px;
+	padding-left:30px;
+	padding-right:17px;
+	padding-top:160px;
+	float:left;
+	background:url("pic2-11-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic2-11.jpg*/ no-repeat;
+}
+.wr-right-bottom
+{
+	width:281px;
+	height:57px;
+	float:left;
+	text-align:center;
+	padding-top:63px;
+}
+.ad
+{
+	width:655px;
+	height:auto;
+	margin-right:14px;
+	margin:15px 0px;
+	float:left;
+}
+.ad-left
+{
+	width:124px;
+	height:45px;
+	float:left;
+	padding-left:531px;
+	padding-top:84px;
+	background:url("ad1-1.jpg")/*tpa=http://www.52tony.com/p2/images/ad1.jpg*/ no-repeat;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.xiang
+{
+	width:287px;
+	height:186px;
+	float:left;
+	padding-top:131px;
+	line-height:23px;
+	padding-left:10px;
+	color:#F00;
+	background:url("pic3-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic3.jpg*/ no-repeat;
+}
+.qiang
+{
+	width:324px;
+	height:305px;
+	float:left;
+	padding-left:27px;
+	padding-right:7px;
+	overflow:hidden;
+	padding-top:12px;
+	background:url("pic4-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic4.jpg*/ no-repeat;
+}
+.text
+{
+	width:325px;
+	height:113px;
+	float:left;
+	overflow:hidden;
+	line-height:22px;
+	text-align:left;
+	text-indent:25px;
+}
+.qiang-btn
+{
+	width:158px;
+	height:64px;
+	overflow:hiddden;
+	float:left;
+	padding-top:117px;
+	padding-left:167px;
+	text-align:left;
+}
+.shihe
+{
+	width:335px;
+	height:190px;
+	float:left;
+	background:url("pic5-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic5.jpg*/ no-repeat;
+	padding-left:320px;
+	line-height:22px;
+	color:#F00;
+	text-align:left;
+	padding-top:154px;
+}
+.ready
+{
+	width:295px;
+	height:807px;
+	float:left;
+	overflow:hidden;
+	padding-top:10px;
+	padding-left:13px;
+	padding-right:13px;
+	background:url("pic6-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic6.jpg*/ no-repeat;
+}
+.text1
+{
+	width:295px;
+	height:313px;
+	text-align:left;
+	line-height:22px;
+}
+.color1
+{
+	color:#00aaa4;
+}
+.color2
+{
+	color:#f00;
+}
+.color3
+{
+	color:#f00;
+	font-weight:bold;
+}
+.text2
+{
+	width:295px;
+	height:49px;
+	float:left;
+	text-align:center;
+	line-height:23px;
+	padding-top:5px;
+	padding-top:441px;
+}
+.jianzheng
+{
+	width:968px;
+	height:360px;
+	padding-top:18px;
+	padding-left:31px;
+	margin:15px 0px;
+	float:left;
+	background:url("pic7-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic7.jpg*/ no-repeat;
+}
+.jianzheng-top
+{
+	width:592px;
+	height:44px;
+	float:left;
+	padding-right:8px;
+	line-height:22px;
+	text-align:left;
+}
+.jianzheng-middle
+{
+	width:620px;
+	height:auto;
+	float:left;
+	text-indent:25px;
+	padding:0px 10px;
+	line-height:22px;
+	text-align:left;
+}
+.jianzheng-bottom
+{
+	width:210px;
+	height:55px;
+	float:left;
+	padding-top:220px;
+	text-align:left;
+}
+.an
+{
+	width:721px;
+	height:364px;
+	padding-left:16px;
+	padding-top:10px;
+	padding-right:262px;
+	text-align:left;
+	line-height:25px;
+	margin-bottom:5px;
+	margin-top:5px;
+	float:left;
+	background:url("pic8-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic8.jpg*/ no-repeat;
+}
+.an-pic
+{
+	width:289px;
+	height:142px;
+	float:left;
+}
+.liyou
+{
+	width:999px;
+	height:378px;
+	margin-bottom:10px;
+	margin-top:10px;
+	float:left;
+	background:url("pic9-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic9.jpg*/ no-repeat;
+}
+.liyou-left
+{
+	width:366px;
+	height:274px;
+	float:left;
+	line-height:22px;
+	padding-left:290px;
+	padding-right:16px;
+	padding-top:110px;
+}
+.liyou-right
+{
+	width:320px;
+	height:322px;
+	float:left;
+	padding-top:62px;
+}
+.black
+{
+	width:300px;
+	height:21px;
+	margin-left:4px;
+	line-height:21px;
+	text-align:left;
+	font-weight:bold;
+	color:#ffffff;
+	padding-left:10px;
+	float:left;
+	background:#000;
+}
+.kuang
+{
+	width:300px;
+	height:auto;
+	margin-left:4px;
+	line-height:21px;
+	text-align:left;
+	color:#ffffff;
+	padding-left:10px;
+	float:left;
+}
+.text3
+{
+	width:229px;
+	height:auto;
+	float:left;
+	line-height:18px;
+}
+.change
+{
+	width:767px;
+	height:271px;
+	float:left;
+	padding-left:190px;
+	padding-top:81px;
+	padding-bottom:26px;
+	padding-right:42px;
+	margin-bottom:15px;
+		margin-top:10px;
+	background:url("pic10-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic10.jpg*/ no-repeat;
+}
+.change-text
+{
+	width:137px;
+	height:119px;
+	line-height:16px;
+	text-align:left;
+	padding-right:160px;
+	float:left;
+}
+.fenxiang
+{
+	width:999px;
+	height:526px;
+	float:left;
+	margin-bottom:15px;
+	margin-top:5px;
+	background:url("pic11-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic11.jpg*/ no-repeat;
+}
+.fenxiang-left
+{
+	width:426px;
+	height:149px;
+	float:left;
+	text-align:left;
+	line-height:25px;
+}
+.fenxiang-right
+{
+	width:423px;
+	height:149px;
+	float:left;
+	text-align:left;
+	line-height:25px;
+}
+.fenxiang-left_pic
+{
+	width:117px;
+	height:116px;
+	float:left;
+	margin-right:5px;
+}
+.fahuo
+{
+	width:999px;
+	height:314px;
+	float:left;
+	margin-bottom:15px;
+}
+.fahuo-left
+{
+	width:320px;
+	height:248px;
+	float:left;
+	line-height:25px;
+	margin-right:9px;
+	text-align:center;
+	font-size:12px;
+	padding-top:73px;
+	color:#999;
+	background:url("fahuo-leftbg-1.jpg")/*tpa=http://www.52tony.com/p2/images/fahuo-leftbg.jpg*/ no-repeat;
+	font-weight:bold;
+}
+.fahuo-right
+{
+	width:670px;
+	height:321px;
+
+	float:left;
+	background:url("fahuo-rightbg-1.jpg")/*tpa=http://www.52tony.com/p2/images/fahuo-rightbg.jpg*/ no-repeat;
+}
+.dingdan
+{
+	width:999px;
+	height:auto;
+	margin:10px 0px;
+	float:left;
+	background:url("pic13-1.jpg")/*tpa=http://www.52tony.com/p2/images/pic13.jpg*/ no-repeat;
+}
+.dingdan-left
+{
+	width:366px;
+	height:auto;
+	padding-left:50px;
+	float:left;
+	padding-top:200px;
+}
+.dingdan-kuang
+{
+	width:583px;
+	height:auto;
+	float:left;
+}
+.dingdan-input
+{
+	width:150px;
+	height:20px;
+	float:left;
+}
+.box1
+{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	overflow:hidden;
+}
+.text4
+{
+	width:90px;
+	height:25px;
+	float:left;
+	text-align:right;
+	line-height:25px;
+}
+.pingjia
+{
+	width:665px;
+	height:235px;
+	float:left;
+}
+.pingjia ul
+{
+	width:665px;
+	height:235px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.pingjia li
+{
+	width:665px;
+	float:left;
+	border-bottom:1px dashed #CCC;
+	margin:0px;
+	line-height:25px;
+	padding:0px;
+	list-style:none;
+}
+.pingjia-left
+{
+	width:151px;
+	float:left;
+	line-height:30px;
+	text-align:center;
+}
+.pingjia-middle
+{
+	width:159px;
+	float:left;
+	line-height:30px;
+	text-align:center;
+}
+.pingjia-right
+{
+	width:346px;
+	float:left;
+	line-height:30px;
+	text-align:left;
+}
+.bottom
+{
+	width:1078px;
+	height:64px;
+	line-height:22px;
+	text-align:center;
+	padding-top:8px;
+	margin-top:40px;
+	background:url("bottom1-1.jpg")/*tpa=http://www.52tony.com/p2/images/bottom1.jpg*/ center no-repeat;
+}
+.a:link, a:visited
+{
+	color:#333;
+	text-decoration:none;
+}
+.a:hover
+{
+	color:#333;
+	text-decoration:none;
+}
+.top-right-menu a:link, .top-right-menu a:visited
+{
+	color:#333;
+	text-decoration:none;
+}
+.top-right-menu a:hover
+{
+	color:#0069bc;
+	text-decoration:none;
+}
